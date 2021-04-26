@@ -53,12 +53,12 @@ XML (Extensible Markup Language): Es un metalenguaje, un estándar que estructur
 
 Ejemplo:
 
-<?xml version="1.0" encoding="ISO-8859-1"?>
+{<?xml version="1.0" encoding="ISO-8859-1"?>
 <dato>
      <Nombre>Jonatan</Nombre>
      <Apellido>Salguero</Apellido>
      <dni>34340544</dni>
-</dato>
+</dato>}
 
 9.	Explicar brevemente el estándar SOAP
 SOAP es un estándar basado en XML para la transmisión de mensajes en HTTP y otros protocolos de Internet. Es un protocolo ligero para el intercambio de información en un entorno descentralizado y distribuido. Se basa en XML y consta de tres partes:
