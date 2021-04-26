@@ -44,19 +44,18 @@ Una colección de pares de nombre/valor: En varios lenguajes esto es conocido co
 Una lista ordenada de valores: En la mayoría de los lenguajes, esto se implementa como arrays, vectores, listas o secuencias.
 
 Ejemplos:
-    { "persona": {"nombre":"Jonatan", "apellido":"Salguero", "dni":"3434054"}}
+    { "persona": {"nombre":"Jonatan", "apellido":"Salguero", "dni":"3434054"} }
 
 XML:
 XML (Extensible Markup Language): Es un metalenguaje, un estándar que estructura el intercambio de información entre las diferentes plataformas, que define un conjunto de reglas para la codificación de documentos.
 
-Ejemplo:
-
-{<?xml version="1.0" encoding="ISO-8859-1"?>
-<dato>
-     <Nombre>Jonatan</Nombre>
-     <Apellido>Salguero</Apellido>
-     <dni>34340544</dni>
-</dato>}
+Ejemplos:
+    {<?xml version="1.0" encoding="ISO-8859-1"?>
+        <dato>
+            <Nombre>Jonatan</Nombre>
+            <Apellido>Salguero</Apellido>
+            <dni>34340544</dni>
+        </dato> }
 
 9.	Explicar brevemente el estándar SOAP
 SOAP es un estándar basado en XML para la transmisión de mensajes en HTTP y otros protocolos de Internet. Es un protocolo ligero para el intercambio de información en un entorno descentralizado y distribuido. Se basa en XML y consta de tres partes:
